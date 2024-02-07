@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio Version 17
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Harmonic Modulator - Standalone Plugin", "Harmonic Modulator_StandalonePlugin.vcxproj", "{6F5EBB4E-6B2F-2B92-6F1E-4F61075D9A41}"
+	ProjectSection(ProjectDependencies) = postProject
+		{85F6BF7A-E8A2-543A-2A49-E7F25F656C17} = {85F6BF7A-E8A2-543A-2A49-E7F25F656C17}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Harmonic Modulator - VST3", "Harmonic Modulator_VST3.vcxproj", "{EFD7790D-DC5B-DB35-60C8-DEF240DF50D2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{85F6BF7A-E8A2-543A-2A49-E7F25F656C17} = {85F6BF7A-E8A2-543A-2A49-E7F25F656C17}
+		{F2AB90FE-1195-17E5-BCC2-F01A0B06AF09} = {F2AB90FE-1195-17E5-BCC2-F01A0B06AF09}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Harmonic Modulator - Shared Code", "Harmonic Modulator_SharedCode.vcxproj", "{85F6BF7A-E8A2-543A-2A49-E7F25F656C17}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Harmonic Modulator - VST3 Manifest Helper", "Harmonic Modulator_VST3ManifestHelper.vcxproj", "{F2AB90FE-1195-17E5-BCC2-F01A0B06AF09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFD7790D-DC5B-DB35-60C8-DEF240DF50D2}.Debug|x64.ActiveCfg = Debug|x64
+		{EFD7790D-DC5B-DB35-60C8-DEF240DF50D2}.Debug|x64.Build.0 = Debug|x64
+		{EFD7790D-DC5B-DB35-60C8-DEF240DF50D2}.Release|x64.ActiveCfg = Release|x64
+		{EFD7790D-DC5B-DB35-60C8-DEF240DF50D2}.Release|x64.Build.0 = Release|x64
+		{6F5EBB4E-6B2F-2B92-6F1E-4F61075D9A41}.Debug|x64.ActiveCfg = Debug|x64
+		{6F5EBB4E-6B2F-2B92-6F1E-4F61075D9A41}.Debug|x64.Build.0 = Debug|x64
+		{6F5EBB4E-6B2F-2B92-6F1E-4F61075D9A41}.Release|x64.ActiveCfg = Release|x64
+		{6F5EBB4E-6B2F-2B92-6F1E-4F61075D9A41}.Release|x64.Build.0 = Release|x64
+		{85F6BF7A-E8A2-543A-2A49-E7F25F656C17}.Debug|x64.ActiveCfg = Debug|x64
+		{85F6BF7A-E8A2-543A-2A49-E7F25F656C17}.Debug|x64.Build.0 = Debug|x64
+		{85F6BF7A-E8A2-543A-2A49-E7F25F656C17}.Release|x64.ActiveCfg = Release|x64
+		{85F6BF7A-E8A2-543A-2A49-E7F25F656C17}.Release|x64.Build.0 = Release|x64
+		{F2AB90FE-1195-17E5-BCC2-F01A0B06AF09}.Debug|x64.ActiveCfg = Debug|x64
+		{F2AB90FE-1195-17E5-BCC2-F01A0B06AF09}.Debug|x64.Build.0 = Debug|x64
+		{F2AB90FE-1195-17E5-BCC2-F01A0B06AF09}.Release|x64.ActiveCfg = Release|x64
+		{F2AB90FE-1195-17E5-BCC2-F01A0B06AF09}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
